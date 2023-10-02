@@ -1,0 +1,17 @@
+{
+  "name": "login-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.3",
+    "node-input-validator": "^4.5.1"
+  }
+}
