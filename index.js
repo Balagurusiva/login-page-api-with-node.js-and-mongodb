@@ -1,8 +1,11 @@
 import express from 'express'
 import { PORT, mongodbURL } from './config.js'
+import regRoutes from './routes/register.js'
 import mongoose from 'mongoose'
 
 const app = express()
+
+app.use('/register', regRoutes)
 
 
 mongoose
