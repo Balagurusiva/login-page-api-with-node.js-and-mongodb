@@ -8,8 +8,8 @@ export const registerValidator = (req, res, next) => {
         email: 'required|email',
         password: 'required|minLength:8'
     })
-    
-    validator
+
+    validator 
         .check()
         .then((matched) => {
             if (!matched) {
